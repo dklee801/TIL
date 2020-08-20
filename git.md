@@ -73,6 +73,76 @@ Initialized empty Git repository in C:/Users/?대룞洹?Desktop/TIL/.git/
 작업한 내용을 commit 대상 목록에 추가함.
 
 ```bash
-git sta
+# 작업 후 상태
+
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+# Git 으로 관리 된 적 없는 파일
+
+  (use "git add <file>..." to include in what will be committed)
+  # commit 될 것들에 포함시키기 위해서는 add 명령어를 써라
+        git.md
+        markdown.md
+        markdown_images/
+
+nothing added to commit but untracked files present (use "git add" to track)
+# 총평
+# commit 될 것이 없다
+# 하지만 새로 생성한 파일은 존재한다.
 ```
 
+add 명령이 된 후 상태
+
+```bash
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+# commit이 될 변경 사항들.
+# working directory에는 파일이 없고
+# staging aread에는 있음.
+  (use "git rm --cached <file>..." to unstage)
+        new file:   git.md
+        new file:   markdown.md
+        new file:   markdown_images/image-20200820140538364.png
+```
+
+
+
+## 3. `commit`
+
+```bash
+$ git commit -m 'add markdown.md'
+[master (root-commit) 3e9f006] add markdown.md
+ 3 files changed, 151 insertions(+)
+ create mode 100644 git.md
+ create mode 100644 markdown.md
+ create mode 100644 markdown_images/image-20200820140538364.png
+```
+
+- `commit`은 버젼(이력)을 기록하는 명령어이다.
+
+- commit 메세지는 해당하는 이력을 나타낼 수 있도록 작성 하여야 한다.
+
+- commit 이력을 확인하기 위해서는 아래의 명령어를 사용
+
+  ```bash
+  $ git log
+  commit 3e9f00679e561bb76745ec785bd6ae0b68a04ef3 (HEAD -> master)
+  Author: dklee801 <dklee801@gmail.com>
+  Date:   Thu Aug 20 14:58:05 2020 +0900
+  
+      add markdown.md
+  $ git log -1
+  $ git log --oneline
+  3e9f006 (HEAD -> master) add markdown.md
+  $ git log --oneline --1
+  ```
+
+  
