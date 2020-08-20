@@ -26,15 +26,14 @@ $ git remote add origin {url}
 
 ```bash
 $ git push origin master
-Enumerating objects: 12, done.
-Counting objects: 100% (12/12), done.
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
 Delta compression using up to 8 threads
-Compressing objects: 100% (12/12), done.
-Writing objects: 100% (12/12), 39.21 KiB | 13.07 MiB/s, done.
-Total 12 (delta 2), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (2/2), done.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.10 KiB | 1.10 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/dklee801/TIL.git
- * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
+   f066a06..b94d1df  master -> master
 ```
 
