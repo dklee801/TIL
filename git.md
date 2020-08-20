@@ -72,6 +72,12 @@ Initialized empty Git repository in C:/Users/?대룞洹?Desktop/TIL/.git/
 
 작업한 내용을 commit 대상 목록에 추가함.
 
+`git add .` : 변경사항 모두 추가
+
+`git add name.txt` : 특정파일만 추가
+
+`git add foler/` : 특정 폴더 추가
+
 ```bash
 # 작업 후 상태
 
@@ -143,6 +149,12 @@ $ git commit -m 'add markdown.md'
   $ git log --oneline
   3e9f006 (HEAD -> master) add markdown.md
   $ git log --oneline --1
+  ```
+
+  ```bash
+  $ git status
+  On branch master
+  nothing to commit, working tree clean
   ```
 
   
