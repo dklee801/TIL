@@ -2,6 +2,10 @@
 
 질문: url : http://hpy.hk/4ai
 
+
+
+blog : https://jekyllrb.com/docs/
+
 ### git
 
 > git : (분산) 버전 관리 시스템 (DVCS)
