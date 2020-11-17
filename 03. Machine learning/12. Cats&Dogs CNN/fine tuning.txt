@@ -1,0 +1,132 @@
+%reset
+%matplotlib inline
+
+import os
+import numpy as np
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.applications import VGG16
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, Flatten
+from tensorflow.keras.optimizers import RMSprop
+import matplotlib.pyplot as plt
+
+
+train_dir = './data/cat_dog_small/train'
+validation_dir = './data/cat_dog_small/validation'
+
+
+# 모든 이미지 데이터의 값을 1/255로 scaling 하면서 augmentation
+train_datagen = ImageDataGenerator(rescale=1/255,
+                                   rotation_range=40,
+                                   width_shift_range=0.1,
+                                   height_shift_range=0.1,
+                                   shear_range=0.2,
+                                   zoom_range=0.2,
+                                   horizontal_flip=True)
+
+# Validation data에 대해서는 당연히 증식을 사용하면 안된다.
+validation_datagen = ImageDataGenerator(rescale=1/255)
+
+
+train_generator = train_datagen.flow_from_directory(
+    train_dir,                    # target directory
+    classes=['cats', 'dogs'],     # cats, dogs 순서로 label 0,1
+                                  # (생략하면 폴더순서로 label적용)
+    target_size=(150,150),        # image size scaling
+    batch_size=20,                # 한번에 20개의 이미지를 가져온다. 
+                                  # label에 상관없이 가져온다.
+    class_mode='binary')          # 고양이와 멍멍이만 존재하므로 
+                                  # 2진 분류이기 때문에 binary
+                                  # 다중분류인 경우 'categorical'(기본값), 
+                                  # 'sparse' 이용가능
+                                  # 오토인코더처럼 입력을 target으로 하는 경우 'input'
+                     
+validation_generator = validation_datagen.flow_from_directory(
+    validation_dir,
+    classes=['cats', 'dogs'],
+    target_size=(150,150),
+    batch_size=20,
+    class_mode='binary')
+
+
+## Pretrained Network
+model_base = VGG16(weights='imagenet',
+                   include_top=False,
+                   input_shape=(150,150,3))
+
+model_base.trainable = False  # Convolution Layer 완전 동결
+
+model = Sequential()
+
+model.add(model_base)
+
+model.add(Flatten(input_shape=(4*4*512,)))
+
+model.add(Dense(256,
+                activation='relu'))
+model.add(Dropout(0.5))
+model.add(Dense(1,
+                activation='sigmoid'))
+
+model.summary()
+
+model.compile(optimizer=RMSprop(learning_rate=2e-5),
+              loss='binary_crossentropy',
+              metrics=['accuracy'])
+
+history = model.fit(train_generator,
+                    steps_per_epoch=100,
+                    epochs=30,
+                    validation_data=validation_generator,
+                    validation_steps=50,
+                    verbose=2)
+
+### 여기까지가 아래의 작업 처리입니다.
+
+# Pretrained Network 위에 새로운 Network을 추가합니다.
+# Base Network을 동결합니다.
+# 새로 추가한 Network을 학습합니다.
+
+
+### 아래의 작업이 추가로 필요합니다.
+# Base Network에서 일부 Layer의 동결을 해제합니다.
+# 동결을 해제한 층과 새로 추가한 층을 함께 학습합니다.
+
+model_base.trainable = True
+
+for layer in model_base.layers:
+    if layer.name in ['block5_conv1','block5_conv2','block5_conv3']:
+        layer.trainable = True
+    else:    
+        layer.trainable = False
+
+## learning rate를 줄이는게 일반적(미세조절)        
+model.compile(optimizer=RMSprop(learning_rate=1e-5),
+              loss='binary_crossentropy',
+              metrics=['accuracy'])
+
+## 재학습 진행
+history = model.fit(train_generator,
+                    steps_per_epoch=100,
+                    epochs=30,
+                    validation_data=validation_generator,
+                    validation_steps=50,
+                    verbose=2)
+        
+
+train_acc = history.history['accuracy']
+val_acc = history.history['val_accuracy']
+train_loss = history.history['loss']
+val_loss = history.history['val_loss']
+
+plt.plot(train_acc, 'bo', color='r', label='training accuracy')
+plt.plot(val_acc, 'b', color='b', label='validation accuracy')
+plt.title('Training and Validation Accuracy')
+plt.legend()
+plt.show()
+
+plt.plot(train_loss, 'bo', color='r', label='training loss')
+plt.plot(val_loss, 'b', color='b', label='validation loss')
+plt.title('Training and Validation Loss')
+plt.legend()
+plt.show()

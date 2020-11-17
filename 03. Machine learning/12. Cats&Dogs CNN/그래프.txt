@@ -1,0 +1,19 @@
+%matplotlib inline
+import matplotlib.pyplot as plt
+
+train_acc = history.history['accuracy']
+val_acc = history.history['val_accuracy']
+train_loss = history.history['loss']
+val_loss = history.history['val_loss']
+
+plt.plot(train_acc, 'bo', color='r', label='training accuracy')
+plt.plot(val_acc, 'b', color='b', label='validation accuracy')
+plt.title('Training and Validation Accuracy')
+plt.legend()
+plt.show()
+
+plt.plot(train_loss, 'bo', color='r', label='training loss')
+plt.plot(val_loss, 'b', color='b', label='validation loss')
+plt.title('Training and Validation Loss')
+plt.legend()
+plt.show()

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4f3d54a-ccbb-4654-baa2-85d7b5057e97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Git 특강/github flow(배포).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Git 특강/gitignore.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Git 특강/파이썬 가상환경.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/algorithms/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/algorithms/boj/1001.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/algorithms/boj/1010.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/algorithms/programmers/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/git/Git 기초.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/git/Git 원격 저장소 활용.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/git/branch.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/markdown-images/clone.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/markdown-images/캡처.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/markdown.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/집에서 복습 시작하는 숙제.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../markdown_images/image-20200820140538364.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_01_basic_datatype.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_02_제어문.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_03_함수.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_04_OOP(객체지향).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_05_magic function.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_06_firstclass_closure.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_07_Decorator.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_08_module.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_09_Exception.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_02_jQuery.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_03_AJAX.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_04_jQuery_method.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_05_book search.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_06_movie open API.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_07_Python_Django.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_08_Python_Django_CRUD.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_수행평가_01_review.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_프로젝트 1  Django web.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/Git , GitHub 기본 사용법.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../인터페이스/수행 평가1 Django_web.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1jn3OoZ7FWt6WJWirDmBreSLgdc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4f3d54a-ccbb-4654-baa2-85d7b5057e97" name="Default Changelist" comment="" />
+      <created>1604425998982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604425998982</updated>
+    </task>
+    <servers />
+  </component>
+</project>
