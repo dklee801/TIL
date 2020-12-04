@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4f3d54a-ccbb-4654-baa2-85d7b5057e97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Git 특강/github flow(배포).pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Git 특강/gitignore.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Git 특강/파이썬 가상환경.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/08. SVM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/08. SVM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../딥러닝.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Git 특강/edutak_TIL" beforeDir="false" afterPath="$PROJECT_DIR$/../../Git 특강/edutak_TIL" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/algorithms/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/algorithms/boj/1001.py" beforeDir="false" />
@@ -17,28 +18,14 @@
       <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/markdown-images/캡처.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/markdown.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TIL-master(git 강사님)/TIL-master/집에서 복습 시작하는 숙제.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../markdown_images/image-20200820140538364.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_01_basic_datatype.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_02_제어문.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_03_함수.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_04_OOP(객체지향).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_05_magic function.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_06_firstclass_closure.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_07_Decorator.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_08_module.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Python_09_Exception.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_01.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_02_jQuery.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_03_AJAX.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_04_jQuery_method.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_05_book search.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_06_movie open API.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_07_Python_Django.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_Web_08_Python_Django_CRUD.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_수행평가_01_review.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/AI_프로젝트 1  Django web.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/Git , GitHub 기본 사용법.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../인터페이스/수행 평가1 Django_web.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_ project/Jangbogo" beforeDir="false" afterPath="$PROJECT_DIR$/../../web_ project/Jangbogo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web_ project/ai_4조 web_project_장보고.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/../../web_ project/ai_4조 web_project_장보고.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../융합 Project/11.14 멘토링.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../융합 Project/11.16일 아이디어.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../융합 Project/데이터 분석/나홀로족_기사_나홀로족키워드.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../융합 Project/데이터 분석/나홀로족_기사_나홀로족키워드_혼밥.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../융합 Project/데이터 분석/나홀로족_배달통기사.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../융합 Project/챗봇/챗봇_장소와 역할을 정의해야.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +44,51 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../AI/Chatbot/hel_ri_celus_model_training___test.ipynb" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="08. SVM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="08. SVM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -70,5 +102,31 @@
       <updated>1604425998982</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607009728085">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607009728085" />
+    <state x="469" y="315" key="FileChooserDialogImpl" timestamp="1607056072621">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="469" y="315" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1607056072621" />
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1607010900166">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1607010900166" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1607010900166">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1607010900166" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1607010900166">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1607010900166" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1607010900166">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1607010900166" />
   </component>
 </project>
